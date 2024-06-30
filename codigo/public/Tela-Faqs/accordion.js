@@ -32,7 +32,7 @@ function User_logado (){
 
   let user = document.getElementById("user");
 
-  fetch(`/logado`, {
+  fetch(`https://busca-pet-projeto.vercel.app/logado`, {
 
      method: 'GET',
   })

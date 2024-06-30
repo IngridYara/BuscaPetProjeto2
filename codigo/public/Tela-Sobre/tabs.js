@@ -2,7 +2,7 @@ const tabs = document.querySelectorAll('.tab-btn');
 let area = document.getElementById('areaTab')
 let db_tabs;
 
-fetch('/Tabs')
+fetch('https://busca-pet-projeto.vercel.app/Tabs')
 .then(resposta => resposta.json())
 .then(dados =>{
 
