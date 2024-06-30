@@ -1,7 +1,7 @@
 let btn = document.getElementById("add");
 let erro = document.getElementById("erro");
 
-fetch('/cadastrados')
+fetch('https://busca-pet-projeto.vercel.app/cadastrados')
 .then(response => response.json())
 .then(dados =>{
 
