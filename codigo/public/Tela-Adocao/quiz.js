@@ -1,4 +1,4 @@
-var requestURL2 = "/quiz";
+var requestURL2 = "https://busca-pet-projeto.vercel.app/quiz";
 var request2 = new XMLHttpRequest();
 
 request2.open("GET", requestURL2);

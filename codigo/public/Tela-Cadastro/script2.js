@@ -29,7 +29,7 @@ fetch('/cadastrados')
 
 function Loga(cadastrado){
 
-  fetch('/logado',{
+  fetch('https://busca-pet-projeto.vercel.app/logado',{
 
     method: 'POST',
     headers:{

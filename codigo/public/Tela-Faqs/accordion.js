@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
   const accordion = document.querySelector('.accordion');
   User_logado ()
-  fetch('/accordion')
+  fetch('https://busca-pet-projeto.vercel.app/accordion')
     .then(response => response.json())
     .then(faqData => {
       faqData.items.forEach(item => {

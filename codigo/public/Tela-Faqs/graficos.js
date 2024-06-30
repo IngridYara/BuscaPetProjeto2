@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initCounters();
  
 
-    fetch('/porcentagem')
+    fetch('https://busca-pet-projeto.vercel.app/porcentagem')
     .then(response => response.json())
     .then(data =>{
 
@@ -62,7 +62,7 @@ function initCounters() {
   resetLocalStorage();
 
   
-    fetch('/pets')
+    fetch('https://busca-pet-projeto.vercel.app/pets')
     .then(response => response.json())
     .then(data => {
           const dados = data;

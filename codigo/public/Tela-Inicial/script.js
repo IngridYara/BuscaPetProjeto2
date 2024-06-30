@@ -4,7 +4,7 @@ let carouselData
 
 document.addEventListener('DOMContentLoaded', function() {
 
-  fetch('/carouselData')
+  fetch('https://busca-pet-projeto.vercel.app/carouselData')
   .then(response => response.json())
   .then(data => {
     carouselData = data
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   /************************************* Script POP-UP*************************************************/
 
-  fetch('/pop-upItens')
+  fetch('https://busca-pet-projeto.vercel.app/pop-upItens')
   .then(response => response.json())
   .then(data => {
     

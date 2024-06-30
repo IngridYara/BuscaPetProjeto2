@@ -1,4 +1,4 @@
-const requestURL = "http://localhost:3000/db/db.json/animais";
+const requestURL = "https://busca-pet-projeto.vercel.app/animais";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";
@@ -25,7 +25,7 @@ function User_logado (){
 
   let user = document.getElementById("user");
 
-  fetch(`/logado`, {
+  fetch(`https://busca-pet-projeto.vercel.app/logado`, {
 
      method: 'GET',
   })

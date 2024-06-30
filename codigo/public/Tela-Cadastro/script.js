@@ -38,7 +38,7 @@ window.onload = () => {
   
   function cadastra(cadastro){
   
-    fetch('/cadastrados', {
+    fetch('https://busca-pet-projeto.vercel.app/cadastrados', {
   
       method: 'POST',
       headers:{

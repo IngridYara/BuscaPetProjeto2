@@ -6,7 +6,7 @@ let nome = document.getElementById('insiran');
 let ocupacao = document.getElementById('ocupacao');
 let erro = document.getElementById('erro');
 
-const requestURL = "http://localhost:3000/db/db.json/comentarios";
+const requestURL = "https://busca-pet-projeto.vercel.app/comentarios";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";

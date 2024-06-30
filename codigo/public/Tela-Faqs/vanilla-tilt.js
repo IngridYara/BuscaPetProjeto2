@@ -1,4 +1,4 @@
-fetch('/cards')
+fetch('https://busca-pet-projeto.vercel.app/cards')
   .then(response => response.json())
   .then(dados => {
     const container = document.getElementById('cards');

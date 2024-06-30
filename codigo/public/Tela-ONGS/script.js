@@ -31,7 +31,7 @@ let db;
 
 window.onload = () => {
 
-    fetch('/ongs')
+    fetch('https://busca-pet-projeto.vercel.app/ongs')
     .then(response => response.json())
     .then(data => {
              
@@ -49,7 +49,7 @@ function User_logado (){
 
   let user = document.getElementById("user");
 
-  fetch(`/logado`, {
+  fetch(`https://busca-pet-projeto.vercel.app/logado`, {
 
      method: 'GET',
   })
